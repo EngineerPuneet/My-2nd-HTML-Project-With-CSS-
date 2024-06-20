@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In Page</title>
+    <link rel="stylesheet" href="signin.css">
+</head>
+<body>
+    <h1 align="center">Sign In Page</h1>
+    <fieldset> 
+        <legend> Enter Your Login Credentials: </legend>
+        <div">
+            <fieldset> 
+                <input type="radio" id="mobile" name="choice" value="Mobile">
+                <label for="mobile"> Enter Your Phone No.: </label>
+                <input type="number" placeholder="Enter Your Phone No.">
+                <p align="center"> Or </p>
+                <input type="radio" id="Email" name="choice" value="EMAIL">
+                <label for="Email"> Enter Your Email Id: </label>
+                <input type="email" placeholder="Enter Your Email Id"> <br><br>
+                <label> Date of Birth: </label>
+                <input type="date"> <br><br>
+                <label> Enter Password: </label>
+                <input type="password" placeholder="Enter Password"> <br><br>
+            </fieldset>
+        </div>
+        <div align="center">
+                <button type="submit" class="btn"> SUBMIT </button>
+                <button type="reset" class="btn"> RESET </button> <br><br>
+                <a href="signup.html"> Not have an Account? Sign Up Here </a>
+        </div>
+    </fieldset>
+</body>
+</html>

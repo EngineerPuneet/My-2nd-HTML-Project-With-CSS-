@@ -1,0 +1,109 @@
+body{
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: #3beac4;
+    background-color: #3f0303;
+    padding: 20px 0;
+    margin-top: 50px;
+    border-radius: 8px;
+}
+
+fieldset{
+    max-width: 100%;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+legend{
+    font-size: 24px;
+    color: #333;
+    padding: 0 10px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="email"],
+input[type="password"],
+select,
+button,
+label{
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+input[type="radio"],
+input[type="checkbox"]{
+    margin-right: 5px;
+}
+
+button{
+    background-color: #3f0303;
+    color: #3beac4;
+    cursor: pointer;
+    border-radius: 8px;
+
+}
+
+button:hover{
+    background-color: orangered;
+}
+
+a{
+    text-decoration: none;
+    color: #007BFF;
+    font-size: 14px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+marquee{
+    color: #3f0303;
+    font-size: 18px;
+    font-style: italic;
+    margin: 20px 0;
+}
+
+input[type='text'],
+input[type='number'],
+input[type='email']{
+    width: 98%;
+}
+
+input[type='date'],
+input[type='password']{
+    width: 98%;
+}
+
+.code{
+    width: 10%;
+}
+
+#num{
+    width: 87.5%;
+}
+
+#lable1{
+    width: 4%;
+}
+
+#pincode{
+    width: 41%;
+}
+
+#state{
+   width: 41%
+}
